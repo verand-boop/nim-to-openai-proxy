@@ -88,7 +88,7 @@ const MODEL_MAPPING = {
   'google-lighter': 'poolside/laguna-xs-2.1', // was google/gemma-3-4b-it
   'glm-5': 'z-ai/glm-5.3-flash',
   'z-ai/glm-5.3-flash': 'z-ai/glm-5.3-flash',
-  'google/gemma-4-31b-it": "google/gemma-4-31b-it',
+  'google/gemma-4-31b-it': "google/gemma-4-31b-it',
   'deepseek-ai/deepseek-v4.1-flash': 'deepseek-ai/deepseek-v4.1-flash',
   'm3': 'minimaxai/minimax-m3'
 };
