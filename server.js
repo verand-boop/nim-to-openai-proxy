@@ -86,10 +86,6 @@ const MODEL_MAPPING = {
   'google-light': 'google/gemma-4-31b-it',
   'google-lightest': 'meta/muse-glimmer-30b', // was google/gemma-2b
   'google-lighter': 'poolside/laguna-xs-2.1', // was google/gemma-3-4b-it
-  'glm-5': 'z-ai/glm-5.3-flash',
-  'z-ai/glm-5.3-flash': 'z-ai/glm-5.3-flash',
-  'google/gemma-4-31b-it': 'google/gemma-4-31b-it',
-  'deepseek-ai/deepseek-v4.1-flash': 'deepseek-ai/deepseek-v4.1-flash',
   'm3': 'minimaxai/minimax-m3'
 };
 
@@ -98,10 +94,10 @@ const DEFAULT_MODEL = 'google/gemma-4-31b-it';
 
 // Ordered by observed reliability/speed — an early failing model delays every fallback behind it.
 const FALLBACK_MODELS = [
-  
-  'google/gemma-4-31b-it'
-  
-  
+  'google/diffusiongemma-26b-a4b-it',
+  'google/gemma-4-31b-it',
+  'mistralai/mistral-nemotron',
+  'nvidia/nemotron-3-super-120b-a12b'
 ];
 
 // ─── Middleware ─────────────────────────────────────────────────────────
