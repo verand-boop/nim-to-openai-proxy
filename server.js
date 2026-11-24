@@ -84,7 +84,7 @@ const MODEL_MAPPING = {
   'mistral-nemo': 'mistralai/mistral-nemotron',
   'mistral-fast': 'nvidia/mistral-nemo-minitron-8b-8k-instruct', // was mistralai/ministral-14b-instruct-2512
   'mistral-large': 'mistralai/mistral-large-4-1t-a52b',
-  'muse-glimmer-30b': 'meta/muse-glimmer-30b',
+  'muse-glimmer': 'meta/muse-glimmer-30b',
   'google-light': 'google/gemma-4-31b-it',
   'google-lighter': 'poolside/laguna-xs-2.1', // was google/gemma-3-4b-it
   'm3': 'minimaxai/minimax-m3'
