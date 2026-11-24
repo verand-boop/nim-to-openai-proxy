@@ -86,7 +86,6 @@ const MODEL_MAPPING = {
   'mistral-large': 'mistralai/mistral-large-4-1t-a52b',
   'muse-glimmer-30b': 'meta/muse-glimmer-30b',
   'google-light': 'google/gemma-4-31b-it',
-  'google-lightest': 'meta/muse-glimmer-30b', // was google/gemma-2b
   'google-lighter': 'poolside/laguna-xs-2.1', // was google/gemma-3-4b-it
   'm3': 'minimaxai/minimax-m3'
 };
